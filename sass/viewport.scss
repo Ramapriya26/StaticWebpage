@@ -1,0 +1,25 @@
+@mixin changes-frow {
+    padding-left:50px;
+    margin-top: 20px;
+}
+@mixin changes-fcard {
+    width: 185px;
+    height: 238px;
+    padding: 5px 5px 0px 5px;
+    background-color: #dbf3fa;
+    margin-bottom: 20px;
+}
+@mixin change-img {
+    width: 175px;
+    height: 200px;
+}
+@mixin change-text {
+    text-align: center;
+    font-size: 18pt;
+    color: #333;
+}
+@mixin firstletter{
+    font-size: 120%;
+    color: #333;
+    padding-left: 50px;
+}

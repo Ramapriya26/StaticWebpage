@@ -1,0 +1,185 @@
+*{margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ #main {
+     width:1000px;
+     height:2000px;
+     padding: 0px;
+     margin: 0px 0px 0px 90px;
+}
+.nav {
+    height: 75px;
+    border: 1px;
+    background-color: #333333;
+    align-items: center;
+}
+.nav ul{float:right; list-style: none; padding: 25px 5px 20px 20px;}
+.nav a:hover { color:rgb(182, 174, 174);}
+.nav ul li {
+    display: inline;
+    list-style: none;
+    padding: 25px 5px 20px 20px;
+}
+.nav ul li a {
+    color: white;
+    text-align: center;
+    font-size: 12pt;
+    text-decoration: none;
+    list-style: none;
+}
+.es {
+    float: left;
+    font-size: 36pt;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    padding: 4px 20px 0px 55px;
+    color: white;
+    margin-top: -1px;
+}
+.right{margin-right:55px;}
+.nav1 {
+    border:0px;
+    margin:0px;
+    height:50px;
+    width:1000px;
+    display:flex;
+}
+.nav1 ul li { display:inline; list-style: none; }
+.nav1 ul{ padding-left:60px; margin-top: 10px; }
+.nav1 a {
+    text-align: left;
+    font-size: 15px;
+    text-decoration: none;
+    color: #333333;
+    padding-right: 15px; 
+    }
+input[type=text] {
+    width: 180px;
+    padding: 10px;
+    margin: -5px 0px 0px 135px;
+    }
+.r1 {
+    background-color: #edeef5;
+    align-items: center;
+    height: 350px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.image {
+    padding: 10px 10px 10px 10px;
+    margin: 20px 30px 27px 40px;
+    width: 140px;
+    height:130px;
+}
+.content {
+    width: 300px;
+    font-size: 35pt;
+    color: #333333;
+    padding: 10px;
+}
+.text {
+    font-size: 14pt;
+    font-weight: 10%;
+    color: #333333;
+    padding: 50px 10px 10px 10px;
+    margin:0px 0px 50px 20px;
+    }
+.deals p::first-letter {
+    font-size: 120%;
+    color: #333333;
+    padding-left: 50px;
+}
+.deals p { font-size: 23pt; color: #333333; }
+.drow { margin: 0px; height: 210px; padding-top: 5px; }
+.dcolumn { float: left; padding-top: 10px; }
+.card img, .card {
+    width: 120px;
+    height: 120px;
+    padding-right: 30px;
+}
+.card1 img { width: 120px;
+    height: 120px;
+    padding: 0px 30px 0px 50px;
+    }
+.card1 p
+{
+    text-align: center;
+    font-size: 12px;
+    color: #333333;
+}
+.card1 span { padding-left: 60px; text-align: center; 
+    font-size: 12px; color: #333333;}
+.card p {
+    text-align: center;
+    font-size: 12px;
+    color: #333333;
+}
+.card span{
+    text-align: center;
+    font-size: 12px;
+    padding-left: 24px;
+    color: #333333;
+}
+.frow {height: 270px;}
+.fcolumn { float: left; padding:10px 0px 0px 45px;}
+.fashion p::first-letter {
+    font-size: 120%;
+    color: #333333;
+    padding-left: 50px;
+}
+.fashion p {
+    font-size: 23pt;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.fcard {
+    width: 178px;
+    height: 235px;
+    padding: 5px 5px 0px 5px;
+    background-color: #dbf3fa;
+}
+.fcard img { width: 175px; height: 200px;}
+.fcard p {
+    text-align: center;
+    font-size: 18pt;
+    color: #333333
+}
+.para {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.para p a{
+     text-decoration: none;
+     color: #333333;
+}
+.para p {
+    margin-bottom: 15px; 
+    text-align:justify;}
+.foot {
+    margin-top: 30px;
+    height:445px;
+    display:flex;
+    background-color: #131a22;
+}
+.foothead { text-transform: uppercase; font-size: 18px; }
+.mt { margin-top: 10px; }
+.myaccount, .policy, .contactus, .social {
+    color: white;
+    font-size: 18px;
+    text-indent: 5px;
+    padding-top: 30px;
+}
+.myaccount ul li, .policy ul li, .contactus ul li, .social ul li {
+    color:white;
+    font-size: 16px;
+    list-style: none;
+}
+.myaccount{padding-left: 50px;}
+.policy, .social {padding-left: 40px;}
+.contactus {padding-left: 40px; font-size:15pt; color:white;}
+a:hover {
+    color:rgb(182, 174, 174);
+}
